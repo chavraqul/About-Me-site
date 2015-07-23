@@ -1,0 +1,83 @@
+
+body{
+  margin: 0;
+  /*Typography Declarations*/
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Halvetica Neue", sans-serif;
+}
+.masthead{
+  padding: 6em 0;
+  background-image: url('https://download.unsplash.com/photo-1429032021766-c6a53949594f');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em brown;
+}
+
+.masthead-intro{
+  margin-bottom:0.1em;
+  font-size: 2em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+}
+
+.masthead-heading{
+  margin-top: -0.2em;
+  font-size: 4em;
+  text-shadow: 3px 3px black;
+  color: gray;
+  font-family: "Open Sans", "Halvetica Neue", sans serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-weight: bold;
+}
+
+.masthead-intro, .masthead-heading, .content-footer{
+  text-align: center;
+}
+
+.introduction, .location, .questions, .education{
+  margin-top: 2em;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-footer{
+  color: white;
+  background-color: brown;
+  margin-top: 5em;
+  padding: 4em 0;
+
+  }
+
+.social{
+  padding: 0;
+  list-style:none;
+}
+
+.social > li{
+  display:inline-block;
+  letter-spacing: 0.05em;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /*Typography Declarations*/
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions > h3{
+  /*Typography declarations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /*Layout*/
+  margin: 2em 0 1em 0;
+  color: brown;
+}
+
+section > h1{
+  margin-top: 2em;
+}
